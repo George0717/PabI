@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan ke 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="home">
+      <!-- heading h1 sampai dengan h6 -->
+      <h1>Kota Palembang</h1>
+      <!-- tag <p> untuk membuat paragraf -->
+      <p>Selamat datang di kota Palembang</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <hr />
+    </div>
+
+    <div>
+      <!-- link navigasi -->
+      <a href="#home">Home</a>
+      <a href="profil.html" target="_blank">Profil</a>
+      <a href="https://palembang.go.id/" target="_blank">Palembang Go Id</a>
+    </div>
+    <div class="image">
+      <img src="img/laptop.jpg" alt="Laptop" style="margin-left: 20px" width="100px" />
+    </div>
+    <div>
+      <h2>Kecamatan Palembang</h2>
+      <p>Berikut daftar nama kecamatan di Kota Palembang :</p>
+      <!-- <table> untuk membuat tabel -->
+      <table border="1px solid black" width="100%">
+        <thead>
+          <!-- tr untuk baris -->
+          <tr>
+            <!-- th kolom 1 -->
+            <th rowspan="2">No.</th>
+            <!-- kolom 2 -->
+            <th rowspan="2">Nama Kecamatan</th>
+            <!-- kolom 3 -->
+            <th rowspan="2">Jumlah Kelurahan</th>
+            <!-- kolom 4 -->
+            <th colspan="2">Jenis Kelamin</th>
+          </tr>
+          <tr>
+            <th>Laki - laki</th>
+            <th>Perempuan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- baris ke 1 -->
+            <td>1.</td>
+            <td>Seberang Ulu 1</td>
+            <td>20</td>
+          </tr>
+          <!-- baris ke 2 -->
+          <tr>
+            <td>2.</td>
+            <td>Sako</td>
+            <td>30</td>
+          </tr>
+          <!-- baris ke 3 -->
+          <td>3</td>
+          <td>Pusri</td>
+          <td>40</td>
+          <tr></tr>
+        </tbody>
+      </table>
+
+      <!-- tabel (colspan dan rowspan) -->
+      <h4>Contoh Colspan dan Rowspan</h4>
+      <!-- colspan -->
+      <table border="1" style="margin-top: 10px">
+        <!-- baris ke 1 -->
+        <tr>
+          <td colspan="2" style="text-align: center">Jenis Kelamin</td>
+        </tr>
+        <!-- baris ke 2 -->
+        <tr>
+          <td>Laki-laki</td>
+          <td>Perempuan</td>
+        </tr>
+      </table>
+      <!-- rowspan -->
+      <table border="1" style="margin-top: 10px">
+        <!-- baris ke 1 -->
+        <tr>
+          <td rowspan="2" style="text-align: center">Jenis Kelamin</td>
+          <td>Laki-laki</td>
+        </tr>
+        <!-- baris ke 2 -->
+        <tr>
+          <td>Perempuan</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

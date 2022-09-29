@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan ke 4 | Profil</title>
+    <link rel="icon" href="img/mdp.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="index.html">Beranda</a>
+    <div>
+      <h2>Objek Wisata</h2>
+      <!-- Order List -->
+      <ol>
+        <li>Jembatan Ampera</li>
+        <li>Benteng Kuto Besak</li>
+        <li>Jakabaring Sport City</li>
+      </ol>
+
+      <h2>Makanan Khas</h2>
+      <ol type="A">
+        <li>Pempek</li>
+        <li>Celimpungan</li>
+        <li>Lenggang</li>
+      </ol>
+
+      <!-- UnOrder List -->
+      <h2>Fasilitas Kesehatan</h2>
+      <ul>
+        <li>Rs. Moh. Hoesin</li>
+        <li>Rs. Chartias</li>
+        <li>Rs. Sriwijaya</li>
+        <li>Rs. Pusri</li>
+      </ul>
+      <h2>Mall</h2>
+      <ul type="square">
+        <li>Palembang Icon</li>
+        <li>Palembang Indah Mall</li>
+        <li>Palembang Square</li>
+        <li>Palembang Trade Center</li>
+      </ul>
+    </div>
+    <!-- Tabel Profil -->
+    <div class="profil">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Nama</th>
+            <th>Foto</th>
+            <th>Periode</th>
+          </tr>
+
+          <tr>
+            <td>1.</td>
+            <td>R. Hanan</td>
+            <td><img src="img/Gub1.jpg" alt="" srcset="" /></td>
+            <td>
+              <ul>
+                <li>1945 - 1947</li>
+              </ul>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2.</td>
+            <td>M.R Sudarman Ganda Subrata</td>
+            <td><img src="img/GubHarno.png" alt="" width="55%" /></td>
+            <td>
+              <ul>
+                <li>2015 - 2018</li>
+                <li>2018 - Sekarang</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="formulir">
+      <h2>Formulir Pendafataran Wali Kota Palembang</h2>
+      <form action="daftar.html" method="post">
+        <!-- Nama Lengkap  -->
+        <div>
+          Nama Lengkap
+          <br />
+          <input type="text" name="nama" id="nama" placeholder="Isi dengan nama Lengkap" />
+        </div>
+        <!-- Tempat Lahir -->
+        <div class="">
+          Tempat Lahir
+          <br />
+          <input type="text" name="tempatLahir" id="tempatLahir" placeholder="Masukkan Tempat Lahir" />
+        </div>
+        <!-- Tanggal Lahir -->
+        <div class="">
+          Tanggal Lahir
+          <br />
+          <input type="date" name="tglLahir" id="tglLahir" />
+        </div>
+        <!-- Jenis Kelamin -->
+        <div class="">
+          Jenis Kelamin
+          <br />
+          <input type="radio" name="jKelamin" id="jLaki" checked value="L" />Laki - Laki <input type="radio" name="jKelamin" id="jPerempuan" value="P" />Perempuan
+        </div>
+        <!-- Alamat -->
+        <div class="">
+          Alamat
+          <br />
+          <textarea name="alamat" id="" cols="30" rows="10"></textarea>
+        </div>
+        <!-- Partai -->
+        <div class="">
+          Partai pengusung
+          <br />
+          <!-- Option For Select Item -->
+          <select name="partai" id="partai">
+            <option value="PTM">Partai Indonesia Maju</option>
+            <option value="PTMS">Partai Indonesia Selangkah</option>
+          </select>
+        </div>
+        <!-- Button Daftar dan Reset -->
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
