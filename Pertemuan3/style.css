@@ -1,1 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
 
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+  text-align: center;
+  text-transform: uppercase;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: cyan;
+  text-align: center;
+  font-size: 20px;
+}
+.Paraf p {
+  color: white;
+  text-align: justify;
+}
+table {
+  border: 1px solid red;
+  margin: 50px auto;
+}
+tr:hover {
+  background-color: bisque;
+}
+th {
+  padding: 2px 6px;
+  border: 1px solid black;
+  background: blueviolet;
+  color: white;
+}
+td {
+  padding: 2px 6px;
+  border: 1px solid black;
+}
+.judul {
+  padding-top: 20px;
+  color: black;
+  animation: bergerak 5s linear 2s infinite alternate;
+  transition: all 2s ease-in;
+}
+hr {
+  width: 38%;
+  size: 5;
+}
+
+@keyframes bergerak {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: red;
+  }
+
+  50% {
+    color: white;
+  }
+
+  75% {
+    color: brown;
+  }
+  100% {
+    color: darkgoldenrod;
+  }
+}
