@@ -1,0 +1,74 @@
+/* Css Reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* End Css Reset */
+/* Elemet Selector */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* animation: jedajedug 0.1s linear 1s infinite alternate; */
+    /* text-align: center; */
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.bg-primary{
+    background-color: aqua;
+    border-radius: 5px;
+}
+.pb1 {
+padding-bottom: 10px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav a:hover{
+    color: aqua;
+    transform: scale(2, 4);
+    transition: all 0.2s ease-in;
+}
+
+
+
+/* jedagjedug */
+@keyframes jedajedug {
+    10% {
+        background-color: aquamarine;
+    }
+    20% {
+        background-color: red;
+    }
+    30% {
+        background-color: blue;
+    }
+    40% {
+        background-color: gray;
+    }
+    50% {
+        background-color: black;
+    }
+    60% {
+        background-color: purple;
+    }
+    70% {
+        background-color: pink;
+    }
+    80% {
+        background-color: orange;
+    }
+    90% {
+        background-color: brown;
+    }
+    100% {
+        background-color: magenta;
+    }
+}
